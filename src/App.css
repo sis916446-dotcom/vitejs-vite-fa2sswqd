@@ -1,0 +1,44 @@
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+}
+.stats-grid {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  flex: 1;
+  text-align: center;
+}
+.instagram { background-color: #E1306C; }
+.tiktok { background-color: #000000; }
+.youtube { background-color: #FF0000; }
+.post-creator {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover { background: #0056b3; }
